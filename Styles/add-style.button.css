@@ -1,0 +1,8 @@
+.add-style-button .state-buttons-container .state-button-wrapper:last-child .button-helper {
+    background-color: #ccc ;
+	color: black;
+} 
+.add-style-button .state-buttons-container .state-button-wrapper:last-child .button-helper:hover {
+    background-color: rgba(0,0,0,.3) ;
+	
+} 

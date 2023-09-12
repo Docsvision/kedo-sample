@@ -1,7 +1,7 @@
 
 *.js
 *.css
-
+!/Styles/*.css
 
 # WixSharp-specific files
 *.msi
