@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Controls>
+ <Control Name="SampleCustomTables" DisplayName="SampleCustomTables" >
+    <Properties>
+      <Property Type="Tag"/>
+      <Property Type="Name" />
+      <Property Type="Header" />
+      <Property Type="Visibility" />
+      <Property Type="Opacity" />
+      <Property Type="StandardCssClass" DefaultValue="sample-custom-tables" />
+      <Property Type="CustomCssClasses" />
+      <Property Type="MinWidth" />
+      <Property Type="Width" />
+      <Property Type="Order" />
+      <Property Name="ButtonText" ResourceKey="ButtonText" Category="AppearanceCategory" DataType="System.String"/>
+      <Property Name="ButtonUrl"  ResourceKey="ButtonUrl" Category="AppearanceCategory" DataType="System.String"/>
+	  <Property Name="BottomLinkLabel" ResourceKey="BottomLinkLabel" Category="AppearanceCategory" DataType="System.String"/>
+      <Property Name="ButtonHide" ResourceKey="ButtonHide" Category="AppearanceCategory" DataType="System.Boolean"  DefaultValue="true" />
+	  <Property Name="CounterHide" ResourceKey="CounterHide" Category="AppearanceCategory" DataType="System.Boolean" DefaultValue="true" />
+      <Property Name="TableHide" ResourceKey="TableHide" Category="AppearanceCategory" DataType="System.Boolean"  DefaultValue="false" />
+      <Property Name="FolderId" ResourceKey="FolderCardsDashboardWidget_FolderId" Category="DataCategory" DataType="System.Guid"/>
+      <Property Name="ViewId" ResourceKey="FolderCardsDashboardWidget_ViewId" Category="DataCategory" DataType="System.Nullable`1[System.Guid]"/>      
+      <Property Name="SortColumnName" ResourceKey="FolderCardsDashboardWidget_SortColumnName" Category="AppearanceCategory" DataType="System.String" />
+      <Property Name="SortDescending" ResourceKey="FolderCardsDashboardWidget_SortDescending" Category="AppearanceCategory" DataType="System.Boolean" />
+      <Property Name="CardsCount" ResourceKey="FolderCardsDashboardWidget_CardsCount" Category="AppearanceCategory" DataType="System.Int32" DefaultValue="5" Editor="PositiveIntegerEditor"/>
+    </Properties>
+    <Events>
+      <Event Name="Click" ResourceKey="ControlTypes_ClickEventProperty" />
+      <Event Name="MouseOver" ResourceKey="ControlTypes_MouseOverEventProperty" />
+      <Event Name="MouseOut" ResourceKey="ControlTypes_MouseOutEventProperty" />
+    </Events>
+  </Control>
+  </Controls>
