@@ -185,10 +185,7 @@ color: white;
 	margin-right: 1rem;
 	margin-bottom: 1rem;
 }
-.new-grid-available .custom-scroll-location>.custom-scroll-layout.custom-scroll-layout.custom-scroll-layout.custom-scroll-layout {
-	overflow-y: hidden;
-	overflow-x: hidden;
-}
+
 .zay .dashboard-more-link-wrapper {
 	margin-top: 0;
 }
@@ -199,8 +196,8 @@ color: white;
 	font-weight: bold;
 }
 .dv-control[data-control-name="Employee"] .labeled-text-label {
-	//font-weight: bold;
-	//opacity: 1;
+	/*font-weight: bold;
+	opacity: 1;*/
 }
 
 /*   styles from file extensions.css in folder Customtables */
