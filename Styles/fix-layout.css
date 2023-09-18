@@ -2,7 +2,7 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	justify-items: stretch;
 	gap: 1rem;
 }
@@ -56,12 +56,9 @@ height:100%}
 	background: #ffffff;
 	border-radius: 0.5rem;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-	/*grid-column: span 2;*/
+	grid-column: span 2;
 }
-.podpis,
-.znak {
-	grid-column: span 1;
-}
+
 .podpis .table, .znak .table {
 display: none;
 }
@@ -425,6 +422,19 @@ padding: 0;
 
 .fix-style-btn .state-button-wrapper{
 	margin:15px 0px !important
+}
+
+/* Styles for dashbord blocks different placement*/
+
+/* With vacationblock */
+.lk-content-vacation .podpis,
+.lk-content-vacation .znak {
+	grid-column: span 1;
+} 
+
+.otpusk {
+  grid-column: 3/5;
+  grid-row: 2/3;
 }
 
 /*# sourceMappingURL=extension.css.map */
