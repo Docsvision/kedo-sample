@@ -1,6 +1,7 @@
-const SITE_ROOT = "Dist/Site";
+const ROOT = process.env.SamplesOutput || "../../SamplesOutput";
+const SITE_ROOT = `${ROOT}/Site`;
 const EXTENSION_NAME = "Signature";
-const MODULES_DIR = SITE_ROOT + "/Content/Modules/KEDO";
+const MODULES_DIR = SITE_ROOT + "/Content/Modules/KEDO/Extensions";
 
 module.exports.STYLES_DIR =  `${MODULES_DIR}/${EXTENSION_NAME}`;
 module.exports.BUNDLE_DIR =  `${MODULES_DIR}/${EXTENSION_NAME}`;
