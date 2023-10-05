@@ -25,7 +25,7 @@ export async function signature(sender: Layout) {
         const methods = await data.management.getSignatureMethods();
         if((!methods || methods.length === 0 || !methods.find(m => m?.isUserDefault))) {
             data.management.close();
-            MessageBox.ShowError(resources.DefaultCertificateError);
+            MessageBox.ShowInfo(resources.DefaultCertificateError);
         } else {
             data.management.setDialogVisible(true);
         }
