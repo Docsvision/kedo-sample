@@ -5,6 +5,6 @@ import { extensionManager } from "@docsvision/webclient/System/ExtensionManager"
 
 extensionManager.registerExtension({
     name: "Insert greeting extension",
-    version: "5.5.17",
+    version: "1.0",
     globalEventHandlers: [InsertGreeting ]
 })
