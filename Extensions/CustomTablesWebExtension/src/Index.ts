@@ -4,7 +4,7 @@ import { SampleCustomTables } from "./customTables/SampleCustomTables";
 
 
 extensionManager.registerExtension({
-    name: "Web extension CustomTables dashboard",
+    name: "CustomTables dashboard web-extension",
     version: "1.0",
     controls: [
         { controlTypeName: "SampleCustomTables", constructor: SampleCustomTables }

@@ -1,6 +1,6 @@
 const ROOT = process.env.SamplesOutput || "../../SamplesOutput";
 const SITE_ROOT = `${ROOT}/Site`;
-const EXTENSION_NAME = "InsertGreetingModule";
+const EXTENSION_NAME = "KEDOWebExtension";
 const MODULES_DIR = SITE_ROOT + "/Content/Modules/KEDO/Extensions";
 
 module.exports.STYLES_DIR =  `${MODULES_DIR}/${EXTENSION_NAME}`;
