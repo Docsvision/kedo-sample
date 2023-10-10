@@ -1586,9 +1586,9 @@
             </Property>
             <Property Name="LabelWidth" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
               <DeviceDependentPropertyOfDouble xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                <Desktop>25</Desktop>
-                <Tablet>25</Tablet>
-                <Smartphone>25</Smartphone>
+                <Desktop>41</Desktop>
+                <Tablet>41</Tablet>
+                <Smartphone>41</Smartphone>
                 <CanChange>true</CanChange>
               </DeviceDependentPropertyOfDouble>
             </Property>
