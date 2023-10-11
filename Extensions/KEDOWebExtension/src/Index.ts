@@ -10,7 +10,7 @@ import { ILocalizationsMap } from "@docsvision/webclient/System/ILocalizationsMa
 // Регистрация расширения позволяет корректно установить все
 // обработчики событий, сервисы и прочие сущности web-приложения.
 extensionManager.registerExtension({
-    name: "KEDO web-extension",
+    name: "КЕДО",
     version: "1.0",
     globalEventHandlers: [ EventHandlers ],
     getLocalizations
