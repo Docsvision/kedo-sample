@@ -268,7 +268,7 @@
                     <Element Id="6a17846b-4b40-427d-813b-1fc8842f7a00" Type="TextBox">
                       <Properties>
                         <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                        <Property Name="Name" Value="textBox3" Type="System.String, mscorlib" IsAvailable="true" />
+                        <Property Name="Name" Value="employeeName" Type="System.String, mscorlib" IsAvailable="true" />
                         <Property Name="ShowEmptyLabel" Value="true" Type="System.Boolean, mscorlib" IsAvailable="true" />
                         <Property Name="Visibility" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
                           <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -461,7 +461,7 @@
             <Element Id="4bd22380-7416-4643-9c1a-5f1db0bb3733" Type="SampleCustomTables">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                <Property Name="Name" Value="sampleCustomTables1" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="Name" Value="sampleCustomTablessign" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Header" Value="eea79ff4-fd0b-4530-afca-3e8c47d49351" Type="System.String, mscorlib" ResolverType="Localized" IsAvailable="true" />
                 <Property Name="Visibility" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
                   <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -569,7 +569,7 @@
             <Element Id="ec52abe8-081b-4f7a-84f1-d3c04943d2dd" Type="SampleCustomTables">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                <Property Name="Name" Value="sampleCustomTables2" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="Name" Value="sampleCustomTablesfam" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Header" Value="70414313-9f51-4357-8b53-7d96bf27dfe4" Type="System.String, mscorlib" ResolverType="Localized" IsAvailable="true" />
                 <Property Name="Visibility" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
                   <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -677,7 +677,7 @@
             <Element Id="0082e3e8-0783-4e2d-8b18-caa492f37abc" Type="SampleCustomTables">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                <Property Name="Name" Value="sampleCustomTables4" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="Name" Value="sampleCustomTablesapp" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Header" Value="14794fb3-efc3-4b14-bdbc-8539da0d9ee1" Type="System.String, mscorlib" ResolverType="Localized" IsAvailable="true" />
                 <Property Name="Visibility" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
                   <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -788,7 +788,7 @@
             <Element Id="435914cc-8a9d-47d1-911b-8af3882d8a80" Type="SampleCustomTables">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                <Property Name="Name" Value="sampleCustomTables3" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="Name" Value="sampleCustomTablesdoc" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Header" Value="2347dfd0-8c37-4c15-ad65-cc08c7b3e895" Type="System.String, mscorlib" ResolverType="Localized" IsAvailable="true" />
                 <Property Name="Visibility" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
                   <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
