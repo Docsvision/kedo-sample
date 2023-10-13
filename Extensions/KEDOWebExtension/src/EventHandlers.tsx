@@ -35,7 +35,7 @@ export async function signature(sender: Layout) {
 }
 
 export async function insertGreeting(sender: Layout) {
-    const textBox3=sender.layout.controls.get<TextBox>("textBox3")
+    const textBox3=sender.layout.controls.get<TextBox>("employeeName")
     const getEmployee= await sender.layout.getService($EmployeeController).getEmployee(textBox3.params.value)
     const gooddaylabel2=sender.layout.controls.get<Label>("gooddaylabel2")
     gooddaylabel2.params.text=getEmployee.firstName
