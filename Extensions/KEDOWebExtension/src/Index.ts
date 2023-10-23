@@ -1,6 +1,9 @@
 ﻿import * as EventHandlers from "./EventHandlers";
 import { extensionManager } from "@docsvision/webclient/System/ExtensionManager";
 import { ILocalizationsMap } from "@docsvision/webclient/System/ILocalizationsMap";
+import { StandardRoutes } from "@docsvision/webclient/System/StandardRoutes";
+import { app } from "@docsvision/webclient/App";
+import { HideNavBarDashboardRouteHandler } from "./Helpers";
 
 
 // Главная входная точка всего расширения
@@ -13,8 +16,13 @@ extensionManager.registerExtension({
     name: "КЭДО",
     version: "1.0",
     globalEventHandlers: [ EventHandlers ],
+    initialize,
     getLocalizations
 })
+
+function initialize() {
+   app.router.addHandler(StandardRoutes.AllRoutes, new HideNavBarDashboardRouteHandler())
+}
 
 function getLocalizations(): ILocalizationsMap {
     let cultureMap = {};
