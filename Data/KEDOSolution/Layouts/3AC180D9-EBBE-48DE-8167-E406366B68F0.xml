@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Layout LayoutID="3AC180D9-EBBE-48DE-8167-E406366B68F0" Name="Согласование УД (просмотр)_Кэдо" LayoutFileID="2D348C4F-B469-4699-A37B-0AFAF51C9E14" LocationID="7532c7b8-7498-4c65-b230-f196dc75eb7e" LayoutType="0" InstanceID="3200c1f1-6caa-4c73-a169-78f3a12d155c" RowID="9959578F-85AC-4C82-8416-E756A99E8172" OwnServerID="00000000-0000-0000-0000-000000000000" ChangeServerID="00000000-0000-0000-0000-000000000000">
-  <File FileID="2D348C4F-B469-4699-A37B-0AFAF51C9E14" OwnerCardID="3200C1F1-6CAA-4C73-A169-78F3A12D155C" Name="Согласование УД (просмотр)_Копия" StandardAttribs="0" ExtendedAttribs="0">
+  <File FileID="2D348C4F-B469-4699-A37B-0AFAF51C9E14" OwnerCardID="3200C1F1-6CAA-4C73-A169-78F3A12D155C" Name="Согласование УД (просмотр)_Кэдо" StandardAttribs="0" ExtendedAttribs="0">
     <Element Id="474de651-5034-455e-8750-1567ab5a4285" Type="Layout">
   <Properties>
     <Property Name="Name" Value="documentRoot" Type="System.String, mscorlib" IsAvailable="true" />

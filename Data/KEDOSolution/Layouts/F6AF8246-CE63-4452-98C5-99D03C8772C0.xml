@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Layout LayoutID="F6AF8246-CE63-4452-98C5-99D03C8772C0" Name="WebFrame_лк_сотрудника_mobile" LayoutFileID="BD0C334E-CFF8-4B1C-B65E-BB218F59BB53" LocationID="DV.WebFrame.Root" LayoutType="0" InstanceID="3200c1f1-6caa-4c73-a169-78f3a12d155c" RowID="00596607-02B5-4376-9482-2075F0E09662" OwnServerID="00000000-0000-0000-0000-000000000000" ChangeServerID="00000000-0000-0000-0000-000000000000">
-  <File FileID="BD0C334E-CFF8-4B1C-B65E-BB218F59BB53" OwnerCardID="3200C1F1-6CAA-4C73-A169-78F3A12D155C" Name="WebFrame_лк_сотрудника_mobile_Копия" StandardAttribs="0" ExtendedAttribs="0">
+  <File FileID="BD0C334E-CFF8-4B1C-B65E-BB218F59BB53" OwnerCardID="3200C1F1-6CAA-4C73-A169-78F3A12D155C" Name="WebFrame_лк_сотрудника_mobile" StandardAttribs="0" ExtendedAttribs="0">
     <Element Id="276da0be-bbec-484c-8911-69a372449be7" Type="Layout">
   <Properties>
     <Property Name="Name" Value="root" Type="System.String, mscorlib" IsAvailable="true" />

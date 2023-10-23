@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Layout LayoutID="7AF95292-42A7-450D-AE30-9C03722F273B" Name="Заявка УД (просмотр)_сотрудник_мобильный" LayoutFileID="84B958FB-5A31-41DC-8666-C52C1AF22D92" LocationID="604b5b8e-a164-42ea-a71a-3a22ca4b8b77" LayoutType="0" InstanceID="3200c1f1-6caa-4c73-a169-78f3a12d155c" RowID="90355567-A662-46A1-9AB6-02BB4D002F06" OwnServerID="00000000-0000-0000-0000-000000000000" ChangeServerID="00000000-0000-0000-0000-000000000000">
-  <File FileID="84B958FB-5A31-41DC-8666-C52C1AF22D92" OwnerCardID="3200C1F1-6CAA-4C73-A169-78F3A12D155C" Name="Заявка УД (просмотр)_сотрудник_mobile_" StandardAttribs="0" ExtendedAttribs="0">
+  <File FileID="84B958FB-5A31-41DC-8666-C52C1AF22D92" OwnerCardID="3200C1F1-6CAA-4C73-A169-78F3A12D155C" Name="Заявка УД (просмотр)_сотрудник_мобильный" StandardAttribs="0" ExtendedAttribs="0">
     <Element Id="d4697622-1254-4be0-aeec-57f1bb4eb819" Type="Layout">
   <Properties>
     <Property Name="Name" Value="documentRoot" Type="System.String, mscorlib" IsAvailable="true" />
