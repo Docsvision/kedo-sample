@@ -407,14 +407,6 @@ padding: 0;
 	margin-right:0px !important
 }
 
-/* ERR-5302 */
-.system-numerator .labeled-text-helper.labeled-text-helper2.labeled-text-helper3:not(.empty-text) .text-cell .labeled-text,
-.system-datetimepicker .labeled-text-helper.labeled-text-helper2.labeled-text-helper3:not(.empty-text) .text-cell .labeled-text {
-	transform: translateY(-50%);
-    top: 50%;
-    position: relative;
-    display: inline-block;
-}
 /* */
 .fix-style-btn{
 	padding:0px !important
