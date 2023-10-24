@@ -18,6 +18,7 @@
       <Property Name="ButtonHide" ResourceKey="ButtonHide" Category="AppearanceCategory" DataType="System.Boolean"  DefaultValue="true" />
 	  <Property Name="CounterHide" ResourceKey="CounterHide" Category="AppearanceCategory" DataType="System.Boolean" DefaultValue="true" />
       <Property Name="TableHide" ResourceKey="TableHide" Category="AppearanceCategory" DataType="System.Boolean"  DefaultValue="false" />
+	  <Property Name="ShowListByDefault" ResourceKey="FolderCardsDashboard_ShowListByDefault" Category="AppearanceCategory" DataType="System.Boolean" DefaultValue="True"  DeviceDependent="true" />
       <Property Name="FolderId" ResourceKey="FolderCardsDashboardWidget_FolderId" Category="DataCategory" DataType="System.Guid"/>
       <Property Name="ViewId" ResourceKey="FolderCardsDashboardWidget_ViewId" Category="DataCategory" DataType="System.Nullable`1[System.Guid]"/>      
       <Property Name="SortColumnName" ResourceKey="FolderCardsDashboardWidget_SortColumnName" Category="AppearanceCategory" DataType="System.String" />
