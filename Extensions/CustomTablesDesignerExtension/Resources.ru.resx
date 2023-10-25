@@ -138,4 +138,7 @@
   <data name="TableHide" xml:space="preserve">
     <value>Скрыть таблицу</value>
   </data>
+  <data name="ControlTypes_SampleCustomTables" xml:space="preserve">
+    <value>Простая пользовательская таблица</value>
+  </data>
 </root>

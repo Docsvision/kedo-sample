@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Controls>
- <Control Name="SampleCustomTables" DisplayName="SampleCustomTables" >
+ <Control Name="SampleCustomTables" ResourceKey="ControlTypes_SampleCustomTables">
     <Properties>
       <Property Type="Tag"/>
       <Property Type="Name" />
