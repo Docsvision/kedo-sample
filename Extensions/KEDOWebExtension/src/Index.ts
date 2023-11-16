@@ -4,6 +4,7 @@ import { ILocalizationsMap } from "@docsvision/webclient/System/ILocalizationsMa
 import { StandardRoutes } from "@docsvision/webclient/System/StandardRoutes";
 import { app } from "@docsvision/webclient/App";
 import { HideNavBarDashboardRouteHandler } from "./Helpers";
+import { initExtension } from "./InitExtension";
 
 
 // Главная входная точка всего расширения
@@ -21,7 +22,8 @@ extensionManager.registerExtension({
 })
 
 function initialize() {
-   app.router.addHandler(StandardRoutes.AllRoutes, new HideNavBarDashboardRouteHandler())
+    app.router.addHandler(StandardRoutes.AllRoutes, new HideNavBarDashboardRouteHandler());
+    initExtension(app);
 }
 
 function getLocalizations(): ILocalizationsMap {
