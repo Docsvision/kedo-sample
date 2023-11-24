@@ -11,12 +11,12 @@ export function initExtension(app: IApp & $StandardControllers & $StandardServic
     const digitalSignature = app.getService($DigitalSignature);
 
     digitalSignature.beforeSignatureDialogShown.watch((data: BeforeSignatureDialogShowEventArgs) => {
-        if(data.cardInfo.kindId !== "028f603f-e8ba-4427-93e6-f31953a00c7f") { return; }
+        if(!data.cardInfo || data.cardInfo.kindId !== "028f603f-e8ba-4427-93e6-f31953a00c7f") { return; }
         data.dialogProps.showHidden = true;
     })
 
     digitalSignature.afterSignatureDialogShown.watch(async (data: AfterSignatureDialogShowEventArgs) => {   
-        if(data.cardInfo.kindId !== "028f603f-e8ba-4427-93e6-f31953a00c7f") { return; }
+        if(!data.cardInfo || data.cardInfo.kindId !== "028f603f-e8ba-4427-93e6-f31953a00c7f") { return; }
         const userId = app.getService($ApplicationSettings).employee.id
         const groups = await app.getService($StaffDirectoryItemsController).getEmployeeGroups(userId)
         const isKEDOUser = groups.find(el => el.id === '6dc6944c-7dca-4861-b3cd-80a192df45cc');
