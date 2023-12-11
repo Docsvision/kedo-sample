@@ -1,24 +1,27 @@
 import { FolderCardsDashboardWidgetParams } from "@docsvision/webclient/Platform/FolderCardsDashboardWidget";
 import { Panel } from "@docsvision/webclient/Platform/Panel";
 import { CustomTablesImpl, ICustomTablesState } from "./SampleCustomTablesImpl";
+import { rw } from "@docsvision/webclient/System/Readwrite";
 
 export class CustomTablesParams extends FolderCardsDashboardWidgetParams {
   /** Показания счетчика */
-  counter?: number;
+  @rw counter?: number;
   /** Управление видимостью счетчика, показывающего количество документов / заданий / заявок в подключенной папке. По умолчанию счетчик скрыт */
-  counterHide?: boolean;
+  @rw counterHide?: boolean;
   /** Наименование дополнительной кнопки над таблицей */
-  buttonText?: string;
+  @rw buttonText?: string;
   /** Ссылка, по которой будет осуществлен переход после нажатия кнопки */
-  buttonUrl?: string;
+  @rw buttonUrl?: string;
   /** Управление видимостью дополнительной кнопки над таблицей. По умолчанию кнопка скрыта */
-  buttonHide?: boolean;
+  @rw buttonHide?: boolean;
   /** Наименование ссылки, расположенной под таблицей и ведущей на страницу папки, к которой подключен контрол. */
-  bottomLinkLabel?: string = "Ещё";
+  @rw bottomLinkLabel?: string = "Ещё";
   /** Управление видимостью таблицы. По умолчанию таблица не скрыта */
-  tableHide?: boolean;
+  @rw tableHide?: boolean;
   /** Дополнительный класс */
-  customCssClasses?: string;
+  @rw customCssClasses?: string;
+  /** Показывать Ленту вместо Грида */
+  @rw showListByDefault?: boolean = true;
 }
 
 export class SampleCustomTables extends Panel<CustomTablesParams, ICustomTablesState>{
