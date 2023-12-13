@@ -14,9 +14,11 @@ export class HideNavBarDashboardRouteHandler implements IRouteHandler<any> {
 
     async mountRoute(data: any, routeType: RouteType): Promise<RouteHandleResult> {
         const webFrameNavigationBar = Helpers.FindControlOnLayout(Constants.WebFrameNavigationBar);
-        const isKEDOUser = await checkUserKedoStatus();
-        if (routeType === StandardRoutes.Dashboard && isKEDOUser) {
-            webFrameNavigationBar.params.visibility = false;
+        if (routeType === StandardRoutes.Dashboard) {
+            const isKEDOUser = await checkUserKedoStatus();
+            if (isKEDOUser) {
+                webFrameNavigationBar.params.visibility = false;
+            }
         } else {
             webFrameNavigationBar.params.visibility = true;
         }
