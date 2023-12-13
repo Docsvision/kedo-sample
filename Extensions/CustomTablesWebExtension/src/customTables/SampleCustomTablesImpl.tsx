@@ -26,7 +26,7 @@ export interface ICustomTablesState extends CustomTablesParams, IPanelState {
 
 /** @internal */
 export class CustomTablesImpl extends FolderCardsDashboardWidgetImpl<CustomTablesParams, ICustomTablesState> {
-
+  private LOCATION_NAME = `${this.props.name}_${this.props.folderId}_${this.props.viewId}_${this.props.searchId}`;
   componentDidMount() {
       this.loadGridModel()
   }
@@ -35,13 +35,12 @@ export class CustomTablesImpl extends FolderCardsDashboardWidgetImpl<CustomTable
 
     this.dataLoader = new CustomTablesDataLoader(gridLayoutServices, this.state);
     this.state.gridModel = await this.dataLoader.loadLayoutModel(null);
-    this.state.counter = this.state.gridModel.gridModel.modelSize
+    this.state.counter = this.state.gridModel.gridModel.modelSize;
 
     this.prepareServices(gridLayoutServices);
 
     this.forceUpdate(EventHelper.WindowResize);
 
-    this.state.locationName = `${this.state.name}_${this.state.folderId}_${this.state.viewId}_${this.state.searchId}`;
     EventHelper.WindowResize();
   }
 
@@ -73,9 +72,10 @@ export class CustomTablesImpl extends FolderCardsDashboardWidgetImpl<CustomTable
             <div className="custom-tables__table">
               {this.state.gridModel && (
                 <LocationContainerControl
-                  locationName={this.state.locationName}
+                  locationName={this.LOCATION_NAME}
                   layoutModel={this.state.gridModel.gridLayout}
                   services={this.state.gridLayoutServices}
+                  name={this.LOCATION_NAME}
                   async={false}
                 />
               )}
