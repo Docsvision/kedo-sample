@@ -1,4 +1,4 @@
-﻿import { $EmployeeController, $StaffDirectoryItemsController } from "@docsvision/webclient/Generated/DocsVision.WebClient.Controllers";
+﻿import { $EmployeeController } from "@docsvision/webclient/Generated/DocsVision.WebClient.Controllers";
 import { Label } from "@docsvision/webclient/Platform/Label";
 import { TextBox } from "@docsvision/webclient/Platform/TextBox";
 import { Layout } from "@docsvision/webclient/System/Layout";
