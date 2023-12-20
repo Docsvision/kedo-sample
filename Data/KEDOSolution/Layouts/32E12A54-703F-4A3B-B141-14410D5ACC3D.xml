@@ -247,7 +247,7 @@
                     <Element Id="e3efbe7a-7bf1-4607-bb74-34bfad3ac2f4" Type="Label">
                       <Properties>
                         <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                        <Property Name="Name" Value="gooddaylabel2" Type="System.String, mscorlib" IsAvailable="true" />
+                        <Property Name="Name" Value="employeeNameLabel" Type="System.String, mscorlib" IsAvailable="true" />
                         <Property Name="Text" Value="" Type="System.String, mscorlib" ResolverType="Localized" IsAvailable="true" />
                         <Property Name="StandardCssClass" Value="system-label" Type="System.String, mscorlib" IsAvailable="true" />
                         <Property Name="CustomCssClasses" Value="my-label" Type="System.String, mscorlib" IsAvailable="true" />
@@ -337,7 +337,7 @@
             <Element Id="d154b118-4b42-4627-914e-777827f9430e" Type="HtmlTag">
               <Properties>
                 <Property Name="CommonTag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                <Property Name="Name" Value="htmlTag1" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="Name" Value="searchButtonHtmlTag" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Visibility" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
                   <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <Desktop>false</Desktop>
@@ -509,6 +509,14 @@
                 <Property Name="ButtonHide" Value="true" Type="System.Boolean, mscorlib" IsAvailable="true" />
                 <Property Name="CounterHide" Value="false" Type="System.Boolean, mscorlib" IsAvailable="true" />
                 <Property Name="TableHide" Value="true" Type="System.Boolean, mscorlib" IsAvailable="true" />
+                <Property Name="ShowListByDefault" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
+                  <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <Desktop>true</Desktop>
+                    <Tablet>true</Tablet>
+                    <Smartphone>true</Smartphone>
+                    <CanChange>true</CanChange>
+                  </DeviceDependentPropertyOfBoolean>
+                </Property>
                 <Property Name="FolderId" Value="817e859d-b5f8-4196-8529-2afb73c2984d" Type="System.Guid, mscorlib" IsAvailable="true" />
                 <Property Name="ViewId" Value="f91f4fed-62c9-4d00-a0f8-c20a25e85a22" Type="System.Guid, mscorlib" IsAvailable="true" />
                 <Property Name="CardsCount" Value="1" Type="System.Int32, mscorlib" IsAvailable="true" />
@@ -617,6 +625,14 @@
                 <Property Name="ButtonHide" Value="true" Type="System.Boolean, mscorlib" IsAvailable="true" />
                 <Property Name="CounterHide" Value="false" Type="System.Boolean, mscorlib" IsAvailable="true" />
                 <Property Name="TableHide" Value="true" Type="System.Boolean, mscorlib" IsAvailable="true" />
+                <Property Name="ShowListByDefault" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
+                  <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <Desktop>true</Desktop>
+                    <Tablet>true</Tablet>
+                    <Smartphone>true</Smartphone>
+                    <CanChange>true</CanChange>
+                  </DeviceDependentPropertyOfBoolean>
+                </Property>
                 <Property Name="FolderId" Value="816e271e-8458-4b1c-a9b2-a9fc4df0c5f9" Type="System.Guid, mscorlib" IsAvailable="true" />
                 <Property Name="ViewId" Value="f91f4fed-62c9-4d00-a0f8-c20a25e85a22" Type="System.Guid, mscorlib" IsAvailable="true" />
                 <Property Name="CardsCount" Value="1" Type="System.Int32, mscorlib" IsAvailable="true" />
@@ -726,6 +742,14 @@
                 <Property Name="ButtonHide" Value="false" Type="System.Boolean, mscorlib" IsAvailable="true" />
                 <Property Name="CounterHide" Value="true" Type="System.Boolean, mscorlib" IsAvailable="true" />
                 <Property Name="TableHide" Value="false" Type="System.Boolean, mscorlib" IsAvailable="true" />
+                <Property Name="ShowListByDefault" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
+                  <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <Desktop>true</Desktop>
+                    <Tablet>true</Tablet>
+                    <Smartphone>true</Smartphone>
+                    <CanChange>true</CanChange>
+                  </DeviceDependentPropertyOfBoolean>
+                </Property>
                 <Property Name="FolderId" Value="d347c802-f390-4eee-a609-704218586afe" Type="System.Guid, mscorlib" IsAvailable="true" />
                 <Property Name="ViewId" Value="1fcc5f83-95a3-433d-a278-ed13e1418973" Type="System.Guid, mscorlib" IsAvailable="true" />
                 <Property Name="SortColumnName" Value="Column_12" Type="System.String, mscorlib" IsAvailable="true" />
@@ -837,6 +861,14 @@
                 <Property Name="ButtonHide" Value="true" Type="System.Boolean, mscorlib" IsAvailable="true" />
                 <Property Name="CounterHide" Value="true" Type="System.Boolean, mscorlib" IsAvailable="true" />
                 <Property Name="TableHide" Value="true" Type="System.Boolean, mscorlib" IsAvailable="true" />
+                <Property Name="ShowListByDefault" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
+                  <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <Desktop>true</Desktop>
+                    <Tablet>true</Tablet>
+                    <Smartphone>true</Smartphone>
+                    <CanChange>true</CanChange>
+                  </DeviceDependentPropertyOfBoolean>
+                </Property>
                 <Property Name="FolderId" Value="488339fd-333b-4586-939f-e758450ea649" Type="System.Guid, mscorlib" IsAvailable="true" />
                 <Property Name="ViewId" Value="e6944994-98de-4104-93b8-78251dd3e935" Type="System.Guid, mscorlib" IsAvailable="true" />
                 <Property Name="SortColumnName" Value="Column_11" Type="System.String, mscorlib" IsAvailable="true" />

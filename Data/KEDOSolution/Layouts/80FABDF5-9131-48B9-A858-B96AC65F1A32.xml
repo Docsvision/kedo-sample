@@ -649,6 +649,27 @@
                 <Property Name="InPlaceEditClosed" Value="" Type="System.String, mscorlib" IsAvailable="true" />
               </Properties>
             </Element>
+            <Element Id="cc74f1d1-eb7b-4406-9b1c-39ec38eebd59" Type="Label">
+              <Properties>
+                <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="Name" Value="documentNameToLongMsg" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="Text" Value="bb590dc3-f1bf-4831-ac5c-02e0b4f4f878" Type="System.String, mscorlib" ResolverType="Localized" IsAvailable="true" />
+                <Property Name="StandardCssClass" Value="system-label" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="CustomCssClasses" Value="name-validation-error" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="Visibility" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
+                  <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <Desktop>false</Desktop>
+                    <Tablet>false</Tablet>
+                    <Smartphone>false</Smartphone>
+                    <CanChange>true</CanChange>
+                  </DeviceDependentPropertyOfBoolean>
+                </Property>
+                <Property Name="VisibilityEditOperation" Value="00000000-0000-0000-0000-000000000000" Type="System.Guid, mscorlib" IsAvailable="true" />
+                <Property Name="Click" Value="" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="MouseOver" Value="" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="MouseOut" Value="" Type="System.String, mscorlib" IsAvailable="true" />
+              </Properties>
+            </Element>
             <Element Id="746e613b-7747-467d-bc80-fbdf72099898" Type="DirectoryDesignerRow">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
@@ -1090,7 +1111,7 @@
             </Element>
             <Element Id="89d5cb1d-2fae-41c9-bc76-c2afbdb76c6d" Type="Numerator">
               <Properties>
-                <Property Name="Name" Value="numerator1" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="Name" Value="numerator" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="ShowEmptyLabel" Value="true" Type="System.Boolean, mscorlib" IsAvailable="true" />
                 <Property Name="Visibility" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
@@ -1139,7 +1160,7 @@
           <Properties>
             <Property Name="StandardCssClass" Value="system-filelist" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="FileListData" Value="f45ae0fe-f013-4daa-9e83-cb1e71e41e7e" Type="System.String, mscorlib" ResolverType="Binding" IsAvailable="true" />
-            <Property Name="Name" Value="fileList1" Type="System.String, mscorlib" IsAvailable="true" />
+            <Property Name="Name" Value="fileList" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="Visibility" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
               <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -1175,7 +1196,8 @@
             <Property Name="FileVersionCommentDeleted" Value="" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="FilePreviewed" Value="" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="FileVisualized" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-            <Property Name="FileTypeChange" Value="" Type="System.String, mscorlib" IsAvailable="true" />
+            <Property Name="FileTypeChanging" Value="" Type="System.String, mscorlib" IsAvailable="true" />
+            <Property Name="FileTypeChanged" Value="" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="MainFileAdding" Value="" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="ExtraFileAdding" Value="" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="MainFileDeleting" Value="" Type="System.String, mscorlib" IsAvailable="true" />
@@ -1198,7 +1220,7 @@
           <Elements>
             <Element Id="b91e7fbb-cb5e-4133-8c61-cdf17f7927f9" Type="FileListOperationsNode">
               <Properties>
-                <Property Name="Name" Value="fileList1FileListOperations" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="Name" Value="fileListFileListOperations" Type="System.String, mscorlib" IsAvailable="true" />
               </Properties>
             </Element>
           </Elements>

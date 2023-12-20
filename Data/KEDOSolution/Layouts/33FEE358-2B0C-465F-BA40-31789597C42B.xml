@@ -1811,7 +1811,7 @@
                 <Property Name="AllowColumnSetup" Value="true" Type="System.Boolean, mscorlib" IsAvailable="true" />
                 <Property Name="DescriptionColumnMethodKey" Value="Standard" Type="System.String, mscorlib" IsAvailable="false" />
                 <Property Name="DetailedInfoViewMode" Value="2" Type="System.Int32, mscorlib" IsAvailable="true" />
-                <Property Name="Name" Value="links1" Type="System.String, mscorlib" IsAvailable="true" />
+                <Property Name="Name" Value="links" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="AddLinkSearchQuery" Value="d3da92d2-7a8c-4f0d-b79d-ea17e2e7001e" Type="System.Guid, mscorlib" IsAvailable="true" />
                 <Property Name="Visibility" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
                   <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -1867,7 +1867,7 @@
               <Elements>
                 <Element Id="2b59edf7-9f3b-4e0f-8d00-6e2b7f749940" Type="BatchOperationsNode">
                   <Properties>
-                    <Property Name="Name" Value="links1BatchOperations" Type="System.String, mscorlib" IsAvailable="true" />
+                    <Property Name="Name" Value="linksBatchOperations" Type="System.String, mscorlib" IsAvailable="true" />
                   </Properties>
                 </Element>
               </Elements>
@@ -1915,7 +1915,8 @@
             <Property Name="FileVersionCommentDeleted" Value="" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="FilePreviewed" Value="" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="FileVisualized" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-            <Property Name="FileTypeChange" Value="" Type="System.String, mscorlib" IsAvailable="true" />
+            <Property Name="FileTypeChanging" Value="" Type="System.String, mscorlib" IsAvailable="true" />
+            <Property Name="FileTypeChanged" Value="" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="MainFileAdding" Value="" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="ExtraFileAdding" Value="" Type="System.String, mscorlib" IsAvailable="true" />
             <Property Name="MainFileDeleting" Value="" Type="System.String, mscorlib" IsAvailable="true" />

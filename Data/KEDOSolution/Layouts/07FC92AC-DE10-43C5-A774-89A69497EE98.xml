@@ -645,52 +645,6 @@
                     <Property Name="InPlaceEditClosed" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                   </Properties>
                 </Element>
-                <Element Id="c18f331b-7da9-4039-aabe-b0cf6d2f4635" Type="HtmlTag">
-                  <Properties>
-                    <Property Name="CommonTag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                    <Property Name="Name" Value="docNameHtmlTag1" Type="System.String, mscorlib" IsAvailable="true" />
-                    <Property Name="Visibility" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
-                      <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                        <Desktop>true</Desktop>
-                        <Tablet>true</Tablet>
-                        <Smartphone>true</Smartphone>
-                        <CanChange>true</CanChange>
-                      </DeviceDependentPropertyOfBoolean>
-                    </Property>
-                    <Property Name="StandardCssClass" Value="system-html-tag" Type="System.String, mscorlib" IsAvailable="true" />
-                    <Property Name="MinWidth" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
-                      <DeviceDependentPropertyOfDouble xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                        <Desktop>10</Desktop>
-                        <Tablet>10</Tablet>
-                        <Smartphone>10</Smartphone>
-                        <CanChange>true</CanChange>
-                      </DeviceDependentPropertyOfDouble>
-                    </Property>
-                    <Property Name="Width" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
-                      <DeviceDependentPropertyOfDouble xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                        <Desktop>100</Desktop>
-                        <Tablet>100</Tablet>
-                        <Smartphone>100</Smartphone>
-                        <CanChange>true</CanChange>
-                      </DeviceDependentPropertyOfDouble>
-                    </Property>
-                    <Property Name="Order" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
-                      <DeviceDependentPropertyOfInt32 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                        <Desktop>0</Desktop>
-                        <Tablet>0</Tablet>
-                        <Smartphone>0</Smartphone>
-                        <CanChange>true</CanChange>
-                      </DeviceDependentPropertyOfInt32>
-                    </Property>
-                    <Property Name="Tag" Value="div" Type="System.String, mscorlib" IsAvailable="true" />
-                    <Property Name="Content" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                    <Property Name="Style" Value="margin-top:10px;" Type="System.String, mscorlib" IsAvailable="true" />
-                    <Property Name="Class" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                    <Property Name="Click" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                    <Property Name="MouseOver" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                    <Property Name="MouseOut" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                  </Properties>
-                </Element>
                 <Element Id="da03d5b3-0f41-41cd-b358-bc4a225c95f0" Type="CardManagement">
                   <Properties>
                     <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
@@ -2226,7 +2180,8 @@
                     <Property Name="FileVersionCommentDeleted" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                     <Property Name="FilePreviewed" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                     <Property Name="FileVisualized" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                    <Property Name="FileTypeChange" Value="" Type="System.String, mscorlib" IsAvailable="true" />
+                    <Property Name="FileTypeChanging" Value="" Type="System.String, mscorlib" IsAvailable="true" />
+                    <Property Name="FileTypeChanged" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                     <Property Name="MainFileAdding" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                     <Property Name="ExtraFileAdding" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                     <Property Name="MainFileDeleting" Value="" Type="System.String, mscorlib" IsAvailable="true" />
@@ -2288,6 +2243,14 @@
                             <Property Name="MouseOut" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                             <Property Name="SignatureFormat" Value="0" Type="System.Int32, mscorlib" IsAvailable="true" />
                             <Property Name="ExportWithPowerOfAttorney" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
+                              <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                                <Desktop>false</Desktop>
+                                <Tablet>false</Tablet>
+                                <Smartphone>false</Smartphone>
+                                <CanChange>true</CanChange>
+                              </DeviceDependentPropertyOfBoolean>
+                            </Property>
+                            <Property Name="ExportWithESignVisualization" Type="System.String, mscorlib" ResolverType="DeviceDependent" IsAvailable="true">
                               <DeviceDependentPropertyOfBoolean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                                 <Desktop>false</Desktop>
                                 <Tablet>false</Tablet>
