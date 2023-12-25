@@ -401,7 +401,7 @@
                 </Property>
                 <Property Name="StandardCssClass" Value="system-saving-buttons" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="CustomCssClasses" Value="" Type="System.String, mscorlib" IsAvailable="true" />
-                <Property Name="OkButtonText" Value="f9a403c6-05db-43d2-83ab-8f57dd2aa7dd" Type="System.String, mscorlib" ResolverType="Localized" IsAvailable="true" />
+                <Property Name="OkButtonText" Value="63dd73f2-cfcd-43f3-ba4e-36b84ed3dc12" Type="System.String, mscorlib" ResolverType="Localized" IsAvailable="true" />
                 <Property Name="CancelButtonText" Value="0791aaec-1187-429c-a8d3-567075362eed" Type="System.String, mscorlib" ResolverType="Localized" IsAvailable="true" />
                 <Property Name="Click" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Clicking" Value="" Type="System.String, mscorlib" IsAvailable="true" />

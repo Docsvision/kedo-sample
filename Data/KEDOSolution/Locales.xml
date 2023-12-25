@@ -182,6 +182,7 @@
   <Property Key="d6b1d77a-a9f8-4cc7-95e7-6403f923f11e" PropertyValue="Group operations are not provided for the selected cards" SolutionId="d425fa2b-e20c-47d6-81b3-f92b06964155" />
   <Property Key="cdc91ed6-d10c-42f0-bed0-1d41afa575bb" PropertyValue="И" SolutionId="d425fa2b-e20c-47d6-81b3-f92b06964155" />
   <Property Key="c7538506-a07c-4bee-8a27-dc6d745656d0" PropertyValue="Подписание кадровых документов для сотрудника лк кэдо" SolutionId="d425fa2b-e20c-47d6-81b3-f92b06964155" />
+  <Property Key="63dd73f2-cfcd-43f3-ba4e-36b84ed3dc12" PropertyValue="Save" SolutionId="d425fa2b-e20c-47d6-81b3-f92b06964155" />
 </LayoutLocalization>
     </File>
   </Locale>
@@ -367,6 +368,7 @@
   <Property Key="d6b1d77a-a9f8-4cc7-95e7-6403f923f11e" PropertyValue="Для выбранных карточек не предусмотрены групповые операции" />
   <Property Key="cdc91ed6-d10c-42f0-bed0-1d41afa575bb" PropertyValue="И" />
   <Property Key="c7538506-a07c-4bee-8a27-dc6d745656d0" PropertyValue="Подписание кадровых документов для сотрудника лк кэдо" />
+  <Property Key="63dd73f2-cfcd-43f3-ba4e-36b84ed3dc12" PropertyValue="Сохранить" />
 </LayoutLocalization>
     </File>
   </Locale>
@@ -552,6 +554,7 @@
   <Property Key="d6b1d77a-a9f8-4cc7-95e7-6403f923f11e" PropertyValue="Таңдалған карталар үшін топтық операциялар қарастырылмаған" />
   <Property Key="cdc91ed6-d10c-42f0-bed0-1d41afa575bb" />
   <Property Key="c7538506-a07c-4bee-8a27-dc6d745656d0" />
+  <Property Key="63dd73f2-cfcd-43f3-ba4e-36b84ed3dc12" />
 </LayoutLocalization>
     </File>
   </Locale>
@@ -737,6 +740,7 @@
   <Property Key="d6b1d77a-a9f8-4cc7-95e7-6403f923f11e" PropertyValue="Grupas darbības netiek nodrošinātas atlasītajām kartēm" />
   <Property Key="cdc91ed6-d10c-42f0-bed0-1d41afa575bb" />
   <Property Key="c7538506-a07c-4bee-8a27-dc6d745656d0" />
+  <Property Key="63dd73f2-cfcd-43f3-ba4e-36b84ed3dc12" />
 </LayoutLocalization>
     </File>
   </Locale>
