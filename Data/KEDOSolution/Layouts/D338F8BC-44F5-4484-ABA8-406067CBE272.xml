@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Layout LayoutID="D338F8BC-44F5-4484-ABA8-406067CBE272" Name="Кадровый документ (создание)_мобильный" LayoutFileID="E683A765-7C08-4F24-ABFF-B24F9B0F3789" LocationID="bb55e922-74f0-4766-a5cb-afe9b30d5ffc" LayoutType="1" InstanceID="3200c1f1-6caa-4c73-a169-78f3a12d155c" RowID="A1166AC7-061E-47B9-B2BB-DA604E6D3C22" OwnServerID="00000000-0000-0000-0000-000000000000" ChangeServerID="00000000-0000-0000-0000-000000000000">
+<Layout LayoutID="D338F8BC-44F5-4484-ABA8-406067CBE272" Name="Кадровый документ (создание)_Мобильный" LayoutFileID="E683A765-7C08-4F24-ABFF-B24F9B0F3789" LocationID="bb55e922-74f0-4766-a5cb-afe9b30d5ffc" LayoutType="1" InstanceID="3200c1f1-6caa-4c73-a169-78f3a12d155c" RowID="A1166AC7-061E-47B9-B2BB-DA604E6D3C22" OwnServerID="00000000-0000-0000-0000-000000000000" ChangeServerID="00000000-0000-0000-0000-000000000000">
   <File FileID="E683A765-7C08-4F24-ABFF-B24F9B0F3789" OwnerCardID="3200C1F1-6CAA-4C73-A169-78F3A12D155C" Name="Кадровый документ (создание)_мобильный" StandardAttribs="0" ExtendedAttribs="0">
     <Element Id="a53a08cb-a0a1-43b4-9576-e1e3cc0eaf72" Type="Layout">
   <Properties>

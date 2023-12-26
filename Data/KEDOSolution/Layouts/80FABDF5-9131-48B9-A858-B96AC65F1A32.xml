@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Layout LayoutID="80FABDF5-9131-48B9-A858-B96AC65F1A32" Name="Заявка УД (создание)_сотрудник" LayoutFileID="3D80B9DA-AD8B-463B-9149-2263C6E88AC3" LocationID="604b5b8e-a164-42ea-a71a-3a22ca4b8b77" LayoutType="1" InstanceID="3200c1f1-6caa-4c73-a169-78f3a12d155c" RowID="894EDEB2-1359-497F-87A5-58213146E9A2" OwnServerID="00000000-0000-0000-0000-000000000000" ChangeServerID="00000000-0000-0000-0000-000000000000">
+<Layout LayoutID="80FABDF5-9131-48B9-A858-B96AC65F1A32" Name="Заявка сотрудника КЭДО (создание)" LayoutFileID="3D80B9DA-AD8B-463B-9149-2263C6E88AC3" LocationID="604b5b8e-a164-42ea-a71a-3a22ca4b8b77" LayoutType="1" InstanceID="3200c1f1-6caa-4c73-a169-78f3a12d155c" RowID="894EDEB2-1359-497F-87A5-58213146E9A2" OwnServerID="00000000-0000-0000-0000-000000000000" ChangeServerID="00000000-0000-0000-0000-000000000000">
   <File FileID="3D80B9DA-AD8B-463B-9149-2263C6E88AC3" OwnerCardID="3200C1F1-6CAA-4C73-A169-78F3A12D155C" Name="Заявка УД (создание)_сотрудник" StandardAttribs="0" ExtendedAttribs="0">
     <Element Id="a53a08cb-a0a1-43b4-9576-e1e3cc0eaf72" Type="Layout">
   <Properties>

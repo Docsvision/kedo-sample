@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Layout LayoutID="FB593596-70B7-4589-A5D1-043E4BB12B22" Name="DV.Dashboard_Document_лк_кэдо" LayoutFileID="7EBA075D-1E99-4CE1-B923-502B55677A2E" LocationID="DV.Dashboard" LayoutType="0" InstanceID="3200c1f1-6caa-4c73-a169-78f3a12d155c" RowID="6EFBDE80-46B1-4167-975E-0117ECA5A2D7" OwnServerID="00000000-0000-0000-0000-000000000000" ChangeServerID="00000000-0000-0000-0000-000000000000">
+<Layout LayoutID="FB593596-70B7-4589-A5D1-043E4BB12B22" Name="DV.Dashboard_Document_Staff_EDF" LayoutFileID="7EBA075D-1E99-4CE1-B923-502B55677A2E" LocationID="DV.Dashboard" LayoutType="0" InstanceID="3200c1f1-6caa-4c73-a169-78f3a12d155c" RowID="6EFBDE80-46B1-4167-975E-0117ECA5A2D7" OwnServerID="00000000-0000-0000-0000-000000000000" ChangeServerID="00000000-0000-0000-0000-000000000000">
   <File FileID="7EBA075D-1E99-4CE1-B923-502B55677A2E" OwnerCardID="3200C1F1-6CAA-4C73-A169-78F3A12D155C" Name="DV.Dashboard_Document_лк_кэдо" StandardAttribs="0" ExtendedAttribs="0">
     <Element Id="7624f284-28be-49d9-bdc1-bf92f2bb9140" Type="Layout">
   <Properties>
@@ -458,7 +458,7 @@
             <Property Name="MouseOut" Value="" Type="System.String, mscorlib" IsAvailable="true" />
           </Properties>
           <Elements>
-            <Element Id="2481d311-c8b0-4ee6-8890-e1642490b38c" Type="PersonalAccountFolderDashboardWidget">
+            <Element Id="2481d311-c8b0-4ee6-8890-e1642490b38c" Type="SampleCustomTables">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Name" Value="sampleCustomTablessign" Type="System.String, mscorlib" IsAvailable="true" />
@@ -573,7 +573,7 @@
             <Property Name="MouseOut" Value="" Type="System.String, mscorlib" IsAvailable="true" />
           </Properties>
           <Elements>
-            <Element Id="ff24698d-bbfd-43aa-b71f-729c060466da" Type="PersonalAccountFolderDashboardWidget">
+            <Element Id="ff24698d-bbfd-43aa-b71f-729c060466da" Type="SampleCustomTables">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Name" Value="sampleCustomTablesfam" Type="System.String, mscorlib" IsAvailable="true" />
@@ -688,7 +688,7 @@
             <Property Name="MouseOut" Value="" Type="System.String, mscorlib" IsAvailable="true" />
           </Properties>
           <Elements>
-            <Element Id="b942b03f-e914-4ddb-bdcb-392b7b97c4a8" Type="PersonalAccountFolderDashboardWidget">
+            <Element Id="b942b03f-e914-4ddb-bdcb-392b7b97c4a8" Type="SampleCustomTables">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Name" Value="sampleCustomTablesdoc" Type="System.String, mscorlib" IsAvailable="true" />
@@ -807,7 +807,7 @@
             <Property Name="MouseOut" Value="" Type="System.String, mscorlib" IsAvailable="true" />
           </Properties>
           <Elements>
-            <Element Id="3966b8ce-60b1-47c2-ae17-c6e7b4089b24" Type="PersonalAccountFolderDashboardWidget">
+            <Element Id="3966b8ce-60b1-47c2-ae17-c6e7b4089b24" Type="SampleCustomTables">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Name" Value="sampleCustomTablesapp" Type="System.String, mscorlib" IsAvailable="true" />
