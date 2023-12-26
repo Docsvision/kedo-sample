@@ -1,9 +1,9 @@
 import { FolderCardsDashboardWidgetParams } from "@docsvision/webclient/Platform/FolderCardsDashboardWidget";
 import { Panel } from "@docsvision/webclient/Platform/Panel";
-import { CustomTablesImpl, ICustomTablesState } from "./SampleCustomTablesImpl";
+import { PersonalAccountFolderDashboardWidgetImpl, IPersonalAccountFolderDashboardWidgetState } from "./PersonalAccountFolderDashboardWidgetImpl";
 import { rw } from "@docsvision/webclient/System/Readwrite";
 
-export class CustomTablesParams extends FolderCardsDashboardWidgetParams {
+export class PersonalAccountFolderDashboardWidgetParams extends FolderCardsDashboardWidgetParams {
   /** Показания счетчика */
   @rw counter?: number;
   /** Управление видимостью счетчика, показывающего количество документов / заданий / заявок в подключенной папке. По умолчанию счетчик скрыт */
@@ -24,12 +24,12 @@ export class CustomTablesParams extends FolderCardsDashboardWidgetParams {
   @rw showListByDefault?: boolean = true;
 }
 
-export class SampleCustomTables extends Panel<CustomTablesParams, ICustomTablesState>{
+export class PersonalAccountFolderDashboardWidget extends Panel<PersonalAccountFolderDashboardWidgetParams, IPersonalAccountFolderDashboardWidgetState>{
   createParams() {
-    return new CustomTablesParams();
+    return new PersonalAccountFolderDashboardWidgetParams();
   }
 
   protected createImpl() {
-    return new CustomTablesImpl(this.props, this.state);
+    return new PersonalAccountFolderDashboardWidgetImpl(this.props, this.state);
   }
 }

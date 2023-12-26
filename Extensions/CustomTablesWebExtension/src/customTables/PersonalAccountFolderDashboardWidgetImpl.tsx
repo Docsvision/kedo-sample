@@ -1,4 +1,4 @@
-import { CustomTablesParams } from "./SampleCustomTables";
+import { PersonalAccountFolderDashboardWidgetParams } from "./PersonalAccountFolderDashboardWidget";
 import { IPanelState } from "@docsvision/webclient/Platform/PanelImpl";
 import { GenModels } from "@docsvision/webclient/Generated/DocsVision.WebClient.Models";
 import { RequestHelper } from "@docsvision/webclient/System/RequestHelper";
@@ -12,9 +12,9 @@ import { FolderCardsDashboardWidgetImpl, FolderCardsDashboardWidgetServices } fr
 import { IGridOptions } from "@docsvision/webclient/Platform/$GridOptions";
 import { cloneServices } from "@docsvision/webclient/System/ServiceUtils";
 import { EventHelper } from "@docsvision/webclient/Legacy/Utils";
-import { CustomTablesDataLoader } from "./SampleCustomTablesDataLoader";
+import { PersonalAccountFolderDashboardWidgetDataLoader } from "./PersonalAccountFolderDashboardWidgetDataLoader";
 
-export interface ICustomTablesState extends CustomTablesParams, IPanelState {
+export interface IPersonalAccountFolderDashboardWidgetState extends PersonalAccountFolderDashboardWidgetParams, IPanelState {
   gridModel: GenModels.CardListViewModel;
   loader: RequestHelper;
   gridContainer: HTMLElement;
@@ -25,7 +25,7 @@ export interface ICustomTablesState extends CustomTablesParams, IPanelState {
 }
 
 /** @internal */
-export class CustomTablesImpl extends FolderCardsDashboardWidgetImpl<CustomTablesParams, ICustomTablesState> {
+export class PersonalAccountFolderDashboardWidgetImpl extends FolderCardsDashboardWidgetImpl<PersonalAccountFolderDashboardWidgetParams, IPersonalAccountFolderDashboardWidgetState> {
   private LOCATION_NAME = `${this.props.name}_${this.props.folderId}_${this.props.viewId}_${this.props.searchId}`;
   componentDidMount() {
       this.loadGridModel()
@@ -33,7 +33,7 @@ export class CustomTablesImpl extends FolderCardsDashboardWidgetImpl<CustomTable
   async loadGridModel() {
     const gridLayoutServices = cloneServices(this.state.services);
 
-    this.dataLoader = new CustomTablesDataLoader(gridLayoutServices, this.state);
+    this.dataLoader = new PersonalAccountFolderDashboardWidgetDataLoader(gridLayoutServices, this.state);
     this.state.gridModel = await this.dataLoader.loadLayoutModel(null);
     this.state.counter = this.state.gridModel.gridModel.modelSize;
 

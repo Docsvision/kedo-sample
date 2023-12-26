@@ -1,12 +1,12 @@
 ﻿import { extensionManager } from "@docsvision/webclient/System/ExtensionManager";
-import { SampleCustomTables } from "./customTables/SampleCustomTables";
+import { PersonalAccountFolderDashboardWidget } from "./customTables/PersonalAccountFolderDashboardWidget";
 
 
 
 extensionManager.registerExtension({
-    name: "CustomTables dashboard",
+    name: "Personal account dashboard",
     version: "1.0",
     controls: [
-        { controlTypeName: "SampleCustomTables", constructor: SampleCustomTables }
+        { controlTypeName: "PersonalAccountFolderDashboardWidget", constructor: PersonalAccountFolderDashboardWidget }
     ]
 })

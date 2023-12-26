@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Controls>
- <Control Name="SampleCustomTables" ResourceKey="ControlTypes_SampleCustomTables">
+ <Control Name="PersonalAccountFolderDashboardWidget" ResourceKey="ControlTypes_PersonalAccountFolderDashboardWidget">
     <Properties>
       <Property Type="Tag"/>
       <Property Type="Name" />

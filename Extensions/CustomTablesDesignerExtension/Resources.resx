@@ -138,7 +138,7 @@
   <data name="TableHide" xml:space="preserve">
     <value>Table hide</value>
   </data>
-  <data name="ControlTypes_SampleCustomTables" xml:space="preserve">
-    <value>Simple Custom Table</value>
+  <data name="ControlTypes_PersonalAccountFolderDashboardWidget" xml:space="preserve">
+    <value>Widget / Personal account folder</value>
   </data>
 </root>

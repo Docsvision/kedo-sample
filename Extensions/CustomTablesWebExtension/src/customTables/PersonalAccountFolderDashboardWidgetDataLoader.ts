@@ -2,7 +2,7 @@ import { GenModels } from "@docsvision/webclient/Generated/DocsVision.WebClient.
 import { FolderCardsDashboardWidgetDataLoader } from "@docsvision/webclient/Platform/FolderCardsDashboardWidgetDataLoader";
 import { FolderDataContext, FolderDataContextParams } from "@docsvision/webclient/Platform/FolderDataContext";
 
-export class CustomTablesDataLoader extends FolderCardsDashboardWidgetDataLoader {
+export class PersonalAccountFolderDashboardWidgetDataLoader extends FolderCardsDashboardWidgetDataLoader {
 
     public async loadLayoutModel(requestData: GenModels.CardListRequestModel, isMobile: boolean = false): Promise<GenModels.CardListViewModel> {
       const preparedRequest = this.prepareRequest();
