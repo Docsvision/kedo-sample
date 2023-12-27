@@ -6,6 +6,7 @@ import { $StandardServices } from "@docsvision/webclient/StandardServices";
 import { resources } from "@docsvision/webclient/System/Resources";
 import { KEDO_SIGN_CARD_KIND_ID } from "./Constants";
 import { checkUserKedoStatus } from "./Helpers";
+import { GenModels } from "@docsvision/webclient/Generated/DocsVision.WebClient.Models";
 
 
 export function initExtension(app: IApp & $StandardControllers & $StandardServices) {
@@ -28,6 +29,8 @@ export function initExtension(app: IApp & $StandardControllers & $StandardServic
         if (!defaultMethod) {
             data.management.close();
             MessageBox.ShowInfo(resources.DefaultCertificateError);
+        } else if (defaultMethod.certificateInfo?.source == GenModels.SignatureMethodSources.Unknown) {
+            data.management.close();
         } else {
             data.management.selectSignatureMethod(defaultMethod);
             data.management.accept();
