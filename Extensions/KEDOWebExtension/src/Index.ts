@@ -29,10 +29,10 @@ function initialize() {
 function getLocalizations(): ILocalizationsMap {
     let cultureMap = {};
     cultureMap["ru"] = {
-        "DefaultCertificateError": "Не настроен сертификат по умолчанию. Обратитесь к администратору."
+        "DefaultCertificateError": "Не настроен сертификат по умолчанию, либо рабочее место на настроено на использование подписи. Обратитесь к администратору."
     };
     cultureMap["en"] = {
-        "DefaultCertificateError": "The default certificate is not configured. Contact your administrator.",
+        "DefaultCertificateError": "The default certificate is not configured, or signature is configured. Contact your administrator.",
     };
     return cultureMap;
 }
