@@ -1,5 +1,5 @@
 {
-  "name": "sample-extension",
+  "name": "personal-account-dashboard",
   "version": "1.0.0",
   "description": "Sample extension for Docsvision WebClient.",
   "scripts": {

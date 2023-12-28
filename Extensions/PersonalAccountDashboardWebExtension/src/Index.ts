@@ -1,5 +1,5 @@
 ﻿import { extensionManager } from "@docsvision/webclient/System/ExtensionManager";
-import { PersonalAccountFolderDashboardWidget } from "./customTables/PersonalAccountFolderDashboardWidget";
+import { PersonalAccountFolderDashboardWidget } from "./PersonalAccountFolderDashboard/PersonalAccountFolderDashboardWidget";
 
 
 

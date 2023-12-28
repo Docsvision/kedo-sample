@@ -9,14 +9,14 @@ namespace SampleCustomTablesDesignerExtension
     /// <summary>
     /// Представляет собой пример расширения для редактора разметок
     /// </summary>
-    class SampleCustomTablesLayoutsDesignerExtension : WebLayoutsDesignerExtension
+    class PersonalAccountDashboardDesignerExtension : WebLayoutsDesignerExtension
     {
 
         /// <summary>
-        /// Создаёт новый экземпляр <see cref="SampleCustomTablesLayoutsDesignerExtension"/>
+        /// Создаёт новый экземпляр <see cref="PersonalAccountDashboardDesignerExtension"/>
         /// </summary>
         /// <param name="provider">Сервис-провайдер</param>
-        public SampleCustomTablesLayoutsDesignerExtension(IServiceProvider provider)
+        public PersonalAccountDashboardDesignerExtension(IServiceProvider provider)
             : base(provider)
         {
         }
