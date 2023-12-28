@@ -11,16 +11,16 @@
 - Data > KEDO.sol - решение, добавляющее в систему Docsvision новые виды для карточек Документ и Задание, а также необходимые расширенные метаданные.
 - Data > KEDOSolution - папка с решением, включающим web-разметки для личного кабинета сотрудника КЭДО.
 - Extensions > KEDOWebExtension - папка с клиентским расширением, в котором реализованы скрипты для добавления приветствия в личный кабинет сотрудника и ограничения функционала электронной подписи для сотрудников из группы "Сотрудники КЭДО".
-- Extensions > CustomTablesWebExtension - папка с клиентским расширением, содержит клиентский скрипт и стили для элемента управления "SampleCustomTables".
-- Extensions > CustomTablesDesignerExtension - папка с расширением для Конструктора разметок, содержит описание элемента управления "SampleCustomTables".
+- Extensions > PersonalAccountDashboardWebExtension - папка с клиентским расширением, содержит клиентский скрипт и стили для элемента управления "PersonalAccountFolderDashboardWidget".
+- Extensions > PersonalAccountDashboardDesignerExtension - папка с расширением для Конструктора разметок, содержит описание элемента управления "PersonalAccountFolderDashboardWidget".
 - Images - папка с иконками для личного кабинета сотрудника КЭДО.
 - Styles - папка со стилями для личного кабинета сотрудника КЭДО.
   - add-style.button.css - стили, назначающие серый цвет, для кнопок в заданиях На подписание КЭДО.
   - fix-layout.css - стили для главной страницы личного кабинета Сотрудника КЭДО.
   - UrlButton.css - стили для кнопки создания заявки в личном кабинете сотрудника.
 
-### Контрол "SampleCustomTables"
-Контрол "SampleCustomTables" содержит базовый функционал контрола "Виджет / Карточки папки" ("FolderCardsDashboardWidget") с дополнительными параметрами: изменение наименования ссылки под таблицей, добавление счетчика документов / заданий / заявок и дополнительную кнопку с заданной ссылкой и наименованием.
+### Контрол "PersonalAccountFolderDashboardWidget"
+Контрол "PersonalAccountFolderDashboardWidget" содержит базовый функционал контрола "Виджет / Карточки папки" ("FolderCardsDashboardWidget") с дополнительными параметрами: изменение наименования ссылки под таблицей, добавление счетчика документов / заданий / заявок и дополнительную кнопку с заданной ссылкой и наименованием.
 
 ## Настройка среды разработки
 
@@ -29,12 +29,12 @@
 * [NodeJS v14.17.0+](https://nodejs.org/en/)
 
 ## Сборка примера
-1. Откройте Samples.sln и соберите проект SampleCustomTablesDesignerExtension.
+1. Откройте Samples.sln и соберите проект PersonalAccountDashboardDesignerExtension.
 2. Соберите клиентские расширения:
    - Откройте командную строку и перейдите в текущую директорию.
    - Выполните команду `.\install.ps1 3`.
    - Дождитесь завершения сборки клиентских расширений. 
-3. Скопируйте каталог `SamplesOutput\Plugins\SampleCustomTablesDesignerExtension` в `<Каталог установки Web-клиента>\Plugins`
+3. Скопируйте каталог `SamplesOutput\Plugins\PersonalAccountDashboardDesignerExtension` в `<Каталог установки Web-клиента>\Plugins`
 4. Скопируйте каталог `SamplesOutput\Site\Content\Modules\KEDO` в `<Каталог установки Web-клиента>\Site\Content\Modules`
 
 ## Проверка примера
