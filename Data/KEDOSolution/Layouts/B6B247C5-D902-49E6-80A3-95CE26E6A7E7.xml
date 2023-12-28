@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Layout LayoutID="B6B247C5-D902-49E6-80A3-95CE26E6A7E7" Name="Ознакомление УД (просмотр)_КЭДО_мобильный" LayoutFileID="2AA7B9C0-C2F1-4CF8-BD03-EB9DDB6D2FFB" LocationID="e3f68b8d-24b8-468d-9fd0-ab4d387948f8" LayoutType="0" InstanceID="3200c1f1-6caa-4c73-a169-78f3a12d155c" RowID="2A4FDBA5-1A10-40AC-ADEC-1B22C0B6E1BA" OwnServerID="00000000-0000-0000-0000-000000000000" ChangeServerID="00000000-0000-0000-0000-000000000000">
+<Layout LayoutID="B6B247C5-D902-49E6-80A3-95CE26E6A7E7" Name="Ознакомление КЭДО (просмотр)_Мобильный" LayoutFileID="2AA7B9C0-C2F1-4CF8-BD03-EB9DDB6D2FFB" LocationID="e3f68b8d-24b8-468d-9fd0-ab4d387948f8" LayoutType="0" InstanceID="3200c1f1-6caa-4c73-a169-78f3a12d155c" RowID="2A4FDBA5-1A10-40AC-ADEC-1B22C0B6E1BA" OwnServerID="00000000-0000-0000-0000-000000000000" ChangeServerID="00000000-0000-0000-0000-000000000000">
   <File FileID="2AA7B9C0-C2F1-4CF8-BD03-EB9DDB6D2FFB" OwnerCardID="3200C1F1-6CAA-4C73-A169-78F3A12D155C" Name="Ознакомление УД (просмотр)_КЭДО_мобильный" StandardAttribs="0" ExtendedAttribs="0">
     <Element Id="474de651-5034-455e-8750-1567ab5a4285" Type="Layout">
   <Properties>
