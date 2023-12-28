@@ -458,7 +458,7 @@
             <Property Name="MouseOut" Value="" Type="System.String, mscorlib" IsAvailable="true" />
           </Properties>
           <Elements>
-            <Element Id="2481d311-c8b0-4ee6-8890-e1642490b38c" Type="SampleCustomTables">
+            <Element Id="2481d311-c8b0-4ee6-8890-e1642490b38c" Type="PersonalAccountFolderDashboardWidget">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Name" Value="sampleCustomTablessign" Type="System.String, mscorlib" IsAvailable="true" />
@@ -573,7 +573,7 @@
             <Property Name="MouseOut" Value="" Type="System.String, mscorlib" IsAvailable="true" />
           </Properties>
           <Elements>
-            <Element Id="ff24698d-bbfd-43aa-b71f-729c060466da" Type="SampleCustomTables">
+            <Element Id="ff24698d-bbfd-43aa-b71f-729c060466da" Type="PersonalAccountFolderDashboardWidget">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Name" Value="sampleCustomTablesfam" Type="System.String, mscorlib" IsAvailable="true" />
@@ -688,7 +688,7 @@
             <Property Name="MouseOut" Value="" Type="System.String, mscorlib" IsAvailable="true" />
           </Properties>
           <Elements>
-            <Element Id="b942b03f-e914-4ddb-bdcb-392b7b97c4a8" Type="SampleCustomTables">
+            <Element Id="b942b03f-e914-4ddb-bdcb-392b7b97c4a8" Type="PersonalAccountFolderDashboardWidget">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Name" Value="sampleCustomTablesdoc" Type="System.String, mscorlib" IsAvailable="true" />
@@ -807,7 +807,7 @@
             <Property Name="MouseOut" Value="" Type="System.String, mscorlib" IsAvailable="true" />
           </Properties>
           <Elements>
-            <Element Id="3966b8ce-60b1-47c2-ae17-c6e7b4089b24" Type="SampleCustomTables">
+            <Element Id="3966b8ce-60b1-47c2-ae17-c6e7b4089b24" Type="PersonalAccountFolderDashboardWidget">
               <Properties>
                 <Property Name="Tag" Value="" Type="System.String, mscorlib" IsAvailable="true" />
                 <Property Name="Name" Value="sampleCustomTablesapp" Type="System.String, mscorlib" IsAvailable="true" />
