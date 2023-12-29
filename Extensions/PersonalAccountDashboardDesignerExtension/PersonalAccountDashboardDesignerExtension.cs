@@ -4,7 +4,7 @@ using System.Resources;
 using DocsVision.Platform.Tools.LayoutEditor.Extensibility;
 
 
-namespace SampleCustomTablesDesignerExtension
+namespace PersonalAccountDashboardDesignerExtension
 {
     /// <summary>
     /// Представляет собой пример расширения для редактора разметок

@@ -1,4 +1,4 @@
-﻿namespace SampleCustomTablesDesignerExtension.Extension
+﻿namespace PersonalAccountDashboardDesignerExtension.Extension
 {
     /// <summary>
     /// Содержит константы для системных наменований пользовательских контролов, свойств и событий

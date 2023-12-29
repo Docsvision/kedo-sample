@@ -7,8 +7,8 @@
     <ProjectGuid>{7909DD19-C267-41BC-A1B0-07750D00B903}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SampleCustomTablesDesignerExtension</RootNamespace>
-    <AssemblyName>SampleCustomTablesDesignerExtension</AssemblyName>
+    <RootNamespace>PersonalAccountDashboardDesignerExtension</RootNamespace>
+    <AssemblyName>PersonalAccountDashboardDesignerExtension</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>
